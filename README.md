@@ -2,7 +2,7 @@
 
 This repository contains the official PyTorch implementation of the paper "Bridging Micro-Packet and Macro-Session: A Statistically Modulated Graph Neural Network for Encrypted Traffic Classification", submitted to KDD 2026.
 
-![](C:\Users\90408\Desktop\实验结果\framework.png)
+![Framework](assets/framework.png)
 
 ## Abstract
 
@@ -119,4 +119,5 @@ The implementation corresponds directly to the sections in the paper:
   - *Dynamic Graph Construction:* Logic resides in `preprocess.py`.
   - *Time Encoding:* Sinusoidal encoding for edge time intervals (Eq. 8 in paper).
   - *Relation-Aware Attention:* GATv2-style message passing conditioned on edge types (Intra-burst, Seq, Anchor) (Eq. 9-11 in paper).
+
 
