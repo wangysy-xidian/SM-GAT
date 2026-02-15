@@ -73,7 +73,7 @@ def main():
     logger.info(f"[*] Device: {CONFIG['device']}")
 
     # --- A. Data Preparation ---
-    logger.info("📦 Loading Datasets...")
+    logger.info(" Loading Datasets...")
     label_encoder = LabelEncoder()
 
     train_path = os.path.join(CONFIG['data_root'], "train.jsonl")
@@ -180,4 +180,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
